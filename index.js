@@ -1,2 +1,3 @@
 // deneme calismasi
-
+<script>   
+  </script>
