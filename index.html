@@ -4,9 +4,188 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS LISTS</title>
+    <style>
+        .item{
+            list-style-type: none;
+            list-style-type: armenian;
+            list-style-type: "\1F648";
+            list-style-position: inside;
+            list-style-image: url(./rocket.png);
+            list-style: circle inside url(./rocket.png);
+
+
+
+        }
+        .item1{
+
+            /*list-style-type: "\1F649";*/
+
+        }
+
+       /* li::before{
+            content: "\263B";
+            color: blue;
+            padding-left: 10px;
+
+
+        }*/
+
+        caption{
+            font-weight: 700;
+            margin-bottom: 15px;
+            border: 2px solid red;
+            
+        }
+        table,th,td {
+                border: 2px solid green;
+                border-collapse: collapse;
+                
+            }
+
+            table{
+                width: 100%;
+            }
+            th{
+                height: 40px;
+                vertical-align: middle;
+                padding: 10px;
+                background-color: blueviolet;
+            }
+
+            
+            td{
+                height: 35px;
+                padding: 5px;
+                text-align: left;
+            /*    background-color: darkkhaki;*/
+                color: darkslategrey;
+
+
+            }
+            tr:hover{
+                background-color: rgb(158, 108, 9);
+            }
+         
+
+
+            tr:nth-child(even)
+            {
+               background-color: tomato;
+
+
+            }
+
+            tr:nth-child(odd)
+            {
+                background-color: yellowgreen;
+            }
+
+            .name1
+            { text-indent: 2%;
+
+
+            }
+    </style>
+
+
 </head>
+
+
 <body>
+    <div>
+    <ul>
+        <li class="item item1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est earum praesentium, nulla similique cum nam fugit et asperiores tempore assumenda tempora veritatis molestiae porro aliquam alias ratione accusamus soluta architecto!</li>
+        <li class="item item2">item2</li>
+        <li class="item item3">item3</li>
+        <li class="item item4">item4</li>
+        <li class="item item5">item5</li>
+    </ul>
+    <div>
+        <table id="stafftable">
+
+            <caption>Clarusway Staff List</caption>
+            <tr>
+                <th class="name1">Name</th>
+                <th class="surname1">Surname</th>
+                <th>Age</th>
+                <th>Telefon</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Martin</td>
+                <td>Smith</td>
+                <td>32</td>
+              
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Eden</td>
+                <td>Jones</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Harrison</td>
+                <td>Almeida</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Carter</td>
+                <td>Martin</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Herry</td>
+                <td>Wilson</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Susan</td>
+                <td>Garcia</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Betty</td>
+                <td>Murhy</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Barney</td>
+                <td>Peeters</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>James</td>
+                <td>Rossi</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Oliver</td>
+                <td>Gruber</td>
+                <td>26</td>
+            </tr>
+         
+
+        </table>
+        
+
+
+
+
+    </div>
     
+
+
+    
+</div>
 </body>
 </html>
